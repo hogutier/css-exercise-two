@@ -1,10 +1,29 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #dbe9ee;
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 2em;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #30476b;
   float: left;
   position: fixed;
   width: 100%;
@@ -23,7 +42,8 @@ nav {
   width: 70%;
 }
 
-.left, .right {
+.left,
+.right {
   float: left;
   width: 50%;
 }
@@ -49,4 +69,29 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* unvisited */
+a:link {
+  color: #ffffff;
+}
+
+/* visited */
+a:visited {
+  color: #ebebeb;
+}
+
+/* mouse over */
+a:hover {
+  color: #d2cd4b;
+}
+
+/* selected */
+a:active {
+  color: #fbf426;
 }
